@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import { AppSidebar } from "@/components/admin/app-sidebar"
 import { CustomTrigger } from "@/components/admin/CustomTrigger"
+import { Toaster } from "@/components/ui/sonner"
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -26,6 +27,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         {/* IMPORTANT: Change bg-navy to bg-off-white (or just bg-white/bg-gray-50 if off-white is not a variable) */}
         <div className="flex flex-1 flex-col gap-4 py-2 pt-0 bg-gray-50 min-h-[calc(100vh-4rem)]">
           {children}
+          <Toaster />
         </div>
       </SidebarInset>
     </SidebarProvider>
