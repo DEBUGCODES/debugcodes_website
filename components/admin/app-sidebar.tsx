@@ -21,6 +21,7 @@ import {
   PanelLeft,
   PanelRight,
   PanelRightClose,
+  Home,
 } from "lucide-react";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -67,6 +68,7 @@ const data = {
     {
       title: "Content Management",
       items: [
+        { title: "Dashboard", url: "/admin", icon: Home },
         { title: "Team Members", url: "/admin/team", icon: Group },
         { title: "Projects", url: "/admin/projects", icon: Briefcase },
         { title: "Products", url: "/admin/products", icon: Package },
