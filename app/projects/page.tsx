@@ -5,12 +5,12 @@ import { ProjectsFilter } from '@/components/projects/ProjectsFilter';
 
 export const metadata = {
   title: 'Our Projects | Debug Technologies',
-  description: 'Explore our portfolio of successful digital projects across Tanzania and East Africa.',
+  description: 'Explore our portfolio of successful digital projects across Tanzania and Africa.',
 };
 
 export default function ProjectsPage() {
   return (
-    <div className="min-h-screen bg-navy text-slate-custom">
+    <div className="min-h-screen bg-navy text-slate">
       <Navbar />
       
       {/* Hero Section */}
@@ -22,11 +22,11 @@ export default function ProjectsPage() {
               <span className="text-teal font-medium tracking-wider text-sm uppercase">Our Work</span>
               <span className="h-px w-12 bg-teal" />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-white-custom mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Project Showcase
             </h1>
-            <p className="text-xl text-slate-custom">
-              Explore our portfolio of successful digital transformations helping businesses across East Africa grow and thrive.
+            <p className="text-xl text-slate">
+              Explore our portfolio of successful digital transformations helping businesses across Africa grow and thrive.
             </p>
           </div>
         </div>

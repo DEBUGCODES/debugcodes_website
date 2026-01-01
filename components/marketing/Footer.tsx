@@ -6,7 +6,7 @@ export function Footer() {
  const currentYear = new Date().getFullYear();
 
  return (
-  <footer className="bg-[#020c1b] py-12 border-t border-navy-light text-sm text-slate-lighter">
+  <footer className="bg-[#020c1b] py-12 border-t border-navy-light text-sm text-slate">
    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-10">
      {/* 1. Brand Identity (Logo Image Only) and Socials */}
@@ -25,22 +25,22 @@ export function Footer() {
        />
       </Link>
 
-      <p className="max-w-xs mb-6 leading-relaxed text-slate-lighter/80">
-       Empowering East Africa through innovative software, strategic branding, and digital training.
+      <p className="max-w-xs mb-6 leading-relaxed text-slate/80">
+       Empowering Africa through innovative software, strategic branding, and digital training.
       </p>
 
       {/* Social Icons */}
       <div className="flex gap-4">
-       <a href="#" className="text-slate-lighter hover:text-teal transition-colors" aria-label="Facebook">
+       <a href="#" className="text-slate hover:text-teal transition-colors" aria-label="Facebook">
         <Facebook size={20} />
        </a>
-       <a href="#" className="text-slate-lighter hover:text-teal transition-colors" aria-label="Twitter">
+       <a href="#" className="text-slate hover:text-teal transition-colors" aria-label="Twitter">
         <Twitter size={20} />
        </a>
-       <a href="#" className="text-slate-lighter hover:text-teal transition-colors" aria-label="Instagram">
+       <a href="#" className="text-slate hover:text-teal transition-colors" aria-label="Instagram">
         <Instagram size={20} />
        </a>
-       <a href="#" className="text-slate-lighter hover:text-teal transition-colors" aria-label="LinkedIn">
+       <a href="#" className="text-slate hover:text-teal transition-colors" aria-label="LinkedIn">
         <Linkedin size={20} />
        </a>
       </div>

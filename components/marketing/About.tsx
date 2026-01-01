@@ -11,7 +11,7 @@ export function About() {
     {
       icon: Globe,
       title: 'Our Vision',
-      description: 'To be the leading technology and training hub in East Africa.',
+      description: 'To be the leading technology and training hub in Africa.',
     },
     {
       icon: Target,
@@ -48,11 +48,11 @@ export function About() {
               <span className="text-teal font-medium tracking-wider text-sm uppercase">About Us</span>
             </div>
 
-            <h2 className="text-3xl md:text-4xl font-bold text-white-custom mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Modern Digital Solutions from Arusha to the World
             </h2>
 
-            <p className="mb-8 text-lg leading-relaxed text-slate-custom">
+            <p className="mb-8 text-lg leading-relaxed text-slate">
               Founded in 2025, Debug Technologies is more than just a software company. We are a hub for innovation and education. Our mission is to bridge the gap between complex technology and everyday business needs.
             </p>
 
@@ -66,8 +66,8 @@ export function About() {
                     <feature.icon size={24} />
                   </div>
                   <div>
-                    <h4 className="text-white-custom font-semibold mb-1">{feature.title}</h4>
-                    <p className="text-sm text-slate-custom">{feature.description}</p>
+                    <h4 className="text-white font-semibold mb-1">{feature.title}</h4>
+                    <p className="text-sm text-slate">{feature.description}</p>
                   </div>
                 </div>
               ))}
