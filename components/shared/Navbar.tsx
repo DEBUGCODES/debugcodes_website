@@ -18,6 +18,7 @@ export function Navbar() {
   }, []);
 
   const navItems = [
+    { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Projects", href: "/projects" },
@@ -50,7 +51,7 @@ export function Navbar() {
 
   // Style for the modern navigation link
   const linkClasses =
-    "relative text-sm font-medium text-slate-lighter transition-colors before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:origin-left before:scale-x-0 before:bg-teal before:transition-transform before:duration-300 hover:text-white-custom hover:before:scale-x-100";
+    "relative text-sm font-medium text-slate transition-colors before:absolute before:inset-x-0 before:bottom-0 before:h-0.5 before:origin-left before:scale-x-0 before:bg-teal before:transition-transform before:duration-300 hover:text-white hover:before:scale-x-100";
 
   return (
     <nav

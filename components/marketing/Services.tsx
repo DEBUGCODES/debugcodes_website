@@ -76,7 +76,7 @@ export function Services() {
           </h2>
           <p className="max-w-2xl mx-auto text-slate text-lg">
             We offer a comprehensive suite of digital solutions designed to help
-            you scale your business and innovate in the East African market.
+            you scale your business and innovate in the African market.
           </p>
         </div>
 

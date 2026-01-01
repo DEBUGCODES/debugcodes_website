@@ -58,7 +58,7 @@ const ProjectCard = ({ project }: { project: any }) => (
           <Badge
             key={idx}
             variant="secondary"
-            className="text-xs px-2 py-0.5 rounded-full bg-navy-lighter text-slate-lighter hover:bg-teal/10 hover:text-teal border border-navy-lighter"
+            className="text-xs px-2 py-0.5 rounded-full bg-navy-lighter text-slate hover:bg-teal/10 hover:text-teal border border-navy-lighter"
           >
             {tag}
           </Badge>

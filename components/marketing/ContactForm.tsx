@@ -22,8 +22,8 @@ const MapPlaceholder = () => (
     {/* Location Text Overlay */}
     <div className="absolute bottom-0 left-0 right-0 p-6 bg-navy/70 backdrop-blur-sm">
       <h3 className="text-white text-xl font-bold">Arusha, Tanzania</h3>
-      <p className="text-sm text-slate-lighter">
-        Innovation Hub for East Africa
+      <p className="text-sm text-slate">
+        Innovation Hub for Africa
       </p>
     </div>
   </div>
@@ -56,7 +56,7 @@ export function ContactForm() {
               Let's Build Something Great{" "}
             </span>{" "}
           </h2>{" "}
-          <p className="max-w-xl mx-auto text-slate-lighter text-lg">
+          <p className="max-w-xl mx-auto text-slate text-lg">
             Ready to start your digital transformation? Fill out the form or
             reach out directly.{" "}
           </p>{" "}
@@ -79,7 +79,7 @@ export function ContactForm() {
                 icon={MapPin}
                 title="Our Location"
                 value="Arusha, Tanzania"
-                details="Serving East Africa"
+                details="Serving Africa"
                 link=""
               />
 
@@ -96,9 +96,9 @@ export function ContactForm() {
               <ContactInfoCard
                 icon={Mail}
                 title="Email Us"
-                value="jonas27@gmail.com"
+                value="prayjonas27@gmail.com"
                 details="We respond within 24 hours"
-                link="mailto:jonas27@gmail.com"
+                link="mailto:prayjonas27@gmail.com"
               />
             </div>
           </div>
@@ -142,7 +142,7 @@ export function ContactForm() {
                 {" "}
                 <Label
                   htmlFor="message"
-                  className="text-white-custom font-medium"
+                  className="text-white font-medium"
                 >
                   Project Details{" "}
                 </Label>{" "}
@@ -154,7 +154,7 @@ export function ContactForm() {
                     setFormData({ ...formData, message: e.target.value })
                   }
                   required
-                  className="min-h-[120px] bg-navy-light/50 border-navy-lighter/50 focus:border-teal text-white-custom transition-colors"
+                  className="min-h-[120px] bg-navy-light/50 border-navy-lighter/50 focus:border-teal text-white transition-colors"
                 />{" "}
               </div>{" "}
               <Button
@@ -196,7 +196,7 @@ const InputField: React.FC<InputFieldProps> = ({
   required = false,
 }) => (
   <div className="space-y-2">
-    <Label htmlFor={id} className="text-white-custom font-medium">
+    <Label htmlFor={id} className="text-white font-medium">
       {label}
     </Label>
     <Input
@@ -207,7 +207,7 @@ const InputField: React.FC<InputFieldProps> = ({
       onChange={(e) => setFormData({ ...formData, [id]: e.target.value })}
       required={required}
       // Sleek input styling: subtle BG, focus border on teal
-      className="bg-navy-light/50 border-navy-lighter/50 focus:border-teal text-white-custom transition-colors placeholder:text-slate-custom"
+      className="bg-navy-light/50 border-navy-lighter/50 focus:border-teal text-white transition-colors placeholder:text-slate"
     />
   </div>
 );
@@ -238,8 +238,8 @@ const ContactInfoCard: React.FC<ContactInfoCardProps> = ({
     </div>
     <div>
       <h4 className="text-white font-semibold text-base mb-0.5">{title}</h4>
-      <p className="text-slate-lighter font-medium">{value}</p>
-      <p className="text-xs text-slate-custom mt-0.5">{details}</p>
+      <p className="text-slate font-medium">{value}</p>
+      <p className="text-xs text-slate mt-0.5">{details}</p>
     </div>
   </a>
 );

@@ -188,16 +188,16 @@ export default function ProjectDetailPage({
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                 {project.title}
               </h1>
-              <p className="text-xl text-slate-lighter mb-6">
+              <p className="text-xl text-slate mb-6">
                 {project.description}
               </p>
 
               <div className="flex flex-wrap gap-x-6 gap-y-3 mb-8">
-                <div className="flex items-center gap-2 text-sm text-slate-lighter">
+                <div className="flex items-center gap-2 text-sm text-slate">
                   <Calendar className="w-4 h-4 text-teal" />
                   <span>Completed: {project.date}</span>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-slate-lighter">
+                <div className="flex items-center gap-2 text-sm text-slate">
                   <Users className="w-4 h-4 text-teal" />
                   <span>Client: {project.client}</span>
                 </div>
@@ -298,11 +298,11 @@ export default function ProjectDetailPage({
                   Project Context
                 </h3>
                 <ul className="space-y-3">
-                  <li className="flex justify-between text-sm text-slate-lighter border-b border-navy-lighter pb-2">
+                  <li className="flex justify-between text-sm text-slate border-b border-navy-lighter pb-2">
                     <span className="font-medium text-teal">Client:</span>
                     <span className="text-slate">{project.client}</span>
                   </li>
-                  <li className="flex justify-between text-sm text-slate-lighter">
+                  <li className="flex justify-between text-sm text-slate">
                     <span className="font-medium text-teal">Completion:</span>
                     <span className="text-slate">{project.date}</span>
                   </li>

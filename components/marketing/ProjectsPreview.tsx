@@ -132,13 +132,14 @@ export function ProjectsPreview() {
     <section id="projects" className="py-24 bg-navy">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Block with Gradient Text */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
               <span className="h-px w-12 bg-teal opacity-50" />
               <span className="text-teal font-medium tracking-wider text-sm uppercase">
                 Portfolio
               </span>
+              
             </div>
             <h2 className="text-3xl md:text-5xl font-extrabold text-white">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-lighter">

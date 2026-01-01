@@ -14,7 +14,7 @@ export function Hero() {
 
   return (
     <section
-      id="hero"
+      id="home"
       className="relative pt-40 pb-24 lg:pt-56 lg:pb-40 overflow-hidden bg-navy min-h-screen flex items-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
@@ -22,7 +22,7 @@ export function Hero() {
           {/* --- Sub-Heading Badge --- */}
           <Badge className="mb-8 bg-teal/10 border-teal text-teal hover:bg-teal/20 text-sm font-medium tracking-wider px-4 py-1.5 transition-all">
             <Zap className="w-3.5 h-3.5 mr-2 animate-pulse" />
-            Digital Engineering in East Africa • Est. 2025
+            Digital Engineering in Africa • Est. 2025
           </Badge>
 
           {/* --- Main Headline --- */}
@@ -35,9 +35,9 @@ export function Hero() {
           </h1>
 
           {/* --- Sub-Text --- */}
-          <p className="mt-6 text-xl text-slate-lighter max-w-3xl mx-auto mb-12 leading-normal font-light">
+          <p className="mt-6 text-xl text-slate max-w-3xl mx-auto mb-12 leading-normal font-light">
             We empower businesses with innovative software, strategic branding,
-            and digital training. The future of tech in East Africa starts here.
+            and digital training. The future of tech in Africa starts here.
           </p>
 
           {/* --- CTA Buttons --- */}
@@ -59,7 +59,7 @@ export function Hero() {
               <Button
                 size="lg"
                 variant="ghost"
-                className="text-slate-lighter hover:text-slate text-lg px-8 py-7 transition-colors duration-300"
+                className="text-slate hover:text-slate text-lg px-8 py-7 transition-colors duration-300"
               >
                 View Our Work
               </Button>
